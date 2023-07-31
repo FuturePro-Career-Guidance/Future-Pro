@@ -25,8 +25,8 @@ const NavBar = () => {
             Services
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">CV Preparation</a></li>
-            <li><a class="dropdown-item" href="#">Interview Preparation</a></li>
+            <li><a class="dropdown-item" href="/cvpreparation">CV Preparation</a></li>
+            <li><a class="dropdown-item" href="/interviewpreparation">Interview Preparation</a></li>
           </ul>
         </li>
         <li class="nav-item me-2">
