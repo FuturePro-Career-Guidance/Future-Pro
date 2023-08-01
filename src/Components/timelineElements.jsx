@@ -1,63 +1,45 @@
 let timelineElements = [
     {
       id: 1,
-      title: "Frontend Developer",
-      location: "Dragontail, Ascana",
+      title: "Discover Your Pathway to Success",
+      location: "Take our skill test",
       description:
-        "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-      buttonText: "View Frontend Projects",
-      date: "August 2016 - present",
+        "Uncover your true potential with our comprehensive career assessment that evaluates your strengths, interests, and skills. Our expert analysis will help you find the perfect career fit, guiding you towards a fulfilling and successful future.",
+      buttonText: "Skill Test",
+      date: "Initial step",
      // icon: "work",
     },
     {
       id: 2,
-      title: "Backend Developer",
-      location: "Skystead, Craonia",
+      title: "Crafting Your Professional Story",
+      location: "Prepare your resume",
       description:
-        "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-      buttonText: "View Backend Projects",
-      date: "June 2013 - August 2016",
+        " Make a lasting impression on employers with a professionally tailored CV. Our team of skilled writers will highlight your achievements, skills, and experience, ensuring your CV stands out in today's competitive job market. Present yourself with confidence and increase your chances of landing your dream job.",
+      buttonText: "CV Preparation",
+      date: "Step 2",
      // icon: "work",
     },
     {
       id: 3,
-      title: "Quality Assurance Engineer",
-      location: "South Warren, Geshington",
+      title: "Mastering the Art of Interviewing",
+      location: "Interview Preparation",
       description:
-        "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-      buttonText: "Company Website",
-      date: "September 2011 - June 2013",
+        "Excel in interviews with our personalized preparation sessions. We simulate real interview scenarios, providing you with constructive feedback and valuable tips to boost your confidence and communication skills. Ace your interviews and leave a lasting impression on recruiters.",
+      buttonText: "Interview Preparation",
+      date: "Step 3",
     //  icon: "work",
     },
     {
       id: 4,
-      title: "Oak Ridge College",
-      location: "South Warren, Geshington",
+      title: "Ignite Your Journey to Success",
+      location: "Kick Start Your Career",
       description:
-        "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      buttonText: "Course Certificate",
-      date: "September 2011",
+        "It's time to launch your career with our comprehensive support. Gain access to exclusive job opportunities, networking events, and mentorship programs to propel you towards your goals. Together, we'll empower you to seize every opportunity and pave the way for a successful and rewarding career.",
+      buttonText: "Share your thoughts",
+      date: "Finsl destination",
      // icon: "school",
     },
-    {
-      id: 5,
-      title: "Hawking College",
-      location: "Skystead, Craonia",
-      description:
-        "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      buttonText: "College Projects",
-      date: "2007 - 2011",
-     // icon: "school",
-    },
-    {
-      id: 6,
-      title: "Marble Hills Grammar School",
-      location: "Dragontail, Ascana",
-      description:
-        "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      date: "2003 - 2007",
-     // icon: "school",
-    },
+
   ];
   
   export default timelineElements;
