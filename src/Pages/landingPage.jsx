@@ -5,6 +5,7 @@ import {signInWithPopup } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 
 import './landingpage.css'
+import Timeline from '../Components/timeline';
 
 const LandingPage = ({setAuth}) => {
     let navigate=useNavigate();
@@ -39,10 +40,10 @@ const LandingPage = ({setAuth}) => {
                     </div>
 
                 </div>
-
+                    
                 </div>
 
-
+                <Timeline/>
 
             </div>
             
