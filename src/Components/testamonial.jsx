@@ -9,27 +9,29 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
 
+
+
 const Testimonial = () => {
   const clients = [
     {
-      // img: profilePic1,
+      img: require("../Assests/profilepic1.jpg"),
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I was feeling lost in my career search until I tried the assessment on this website. It recommended the perfect career path for me, and now I feel confident about my future. Thank you for helping me discover my true potential! - Sarah R.",
     },
     {
-      // img: profilePic2,
+       img: require("../Assests/profilepic2.jpg"),
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "The CV preparation service exceeded my expectations. The writers really understood my strengths and highlighted them in a way that caught the attention of employers. I secured a job interview within days of sending out my new CV! - John P.",
     },
     {
-      // img: profilePic3,
+      img: require("../Assests/profilepic3.jpg"),
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I used to get nervous during interviews, but the interview preparation sessions on this website changed everything. I felt more confident and well-prepared than ever before. Thanks to your guidance, I landed my dream job! - Emily T",
     },
     {
-      // img: profilePic4,
+      img: require("../Assests/profilepic4.jpg"),
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Kick-starting my career was daunting, but this website made it so much easier. The job opportunities and networking events they provided were invaluable. I couldn't have asked for a better support system as I launched my professional journey! - Michael S",
     },
   ];
 
@@ -53,7 +55,7 @@ const Testimonial = () => {
           return (
             <SwiperSlide key={index}>
               <div className="testimonial">
-                {/* <img src={client.img} alt="" /> */}
+                <img src={client.img} alt="" />
                 <span>{client.review}</span>
               </div>
             </SwiperSlide>
