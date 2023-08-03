@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 import './landingpage.css'
 import Timeline from '../Components/timeline';
+import Testimonial from '../Components/testamonial';
 
 
 const LandingPage = ({setAuth}) => {
@@ -48,6 +49,11 @@ const LandingPage = ({setAuth}) => {
                 <div className='timeline'>
                 <Timeline/>
 
+                </div>
+
+                <div className='testamonials'>
+
+                    <Testimonial/>
                 </div>
 
                
