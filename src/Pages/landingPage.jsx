@@ -19,6 +19,11 @@ const LandingPage = ({setAuth}) => {
             navigate('/');
         });
     };
+
+    const recomend=()=>{
+            navigate('/genralRecomendation');
+        
+    };
     return ( 
         <React.Fragment>
             <div className='outlinebox'> 
@@ -36,6 +41,7 @@ const LandingPage = ({setAuth}) => {
                     </div>
                     <div>
                         <button className='btn btn-success ms-3' onClick={signInWithGoogle}>Sign in with Google</button>
+                        <button className='btn btn-warning ms-3' onClick={recomend}>General Career Recomendation</button>
                     </div>
                     <div className='imgsection w-25 m-3'>
 

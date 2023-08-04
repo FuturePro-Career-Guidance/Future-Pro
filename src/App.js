@@ -11,6 +11,7 @@ import LandingPage from './Pages/landingPage';
 import AboutUs from './Pages/aboutUs';
 import CVPrep from './Pages/cvPrep';
 import InterviewPrep from './Pages/Interviewprep';
+import GeneralCareer from './Pages/generalCareer';
 
 function App() {
   const [auth,setAuth]=useState(false);
@@ -24,6 +25,7 @@ function App() {
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/cvpreparation' element={<CVPrep/>}/>
           <Route path='/interviewpreparation' element={<InterviewPrep/>}/>
+          <Route path='/genralRecomendation' element={<GeneralCareer/>}/>
         </Routes>
       </Router>
 
