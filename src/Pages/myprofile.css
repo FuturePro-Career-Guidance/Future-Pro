@@ -1,0 +1,11 @@
+.cvsubmitted, .mockinterview{
+    min-height: 500px;
+}
+
+.cvreveiew{
+    min-height: 200px;
+}
+
+.interviews{
+    min-height: 250px;
+}

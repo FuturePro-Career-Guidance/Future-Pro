@@ -12,6 +12,7 @@ import AboutUs from './Pages/aboutUs';
 import CVPrep from './Pages/cvPrep';
 import InterviewPrep from './Pages/Interviewprep';
 import GeneralCareer from './Pages/generalCareer';
+import MyProfile from './Pages/myProfile';
 
 function App() {
   const [auth,setAuth]=useState(false);
@@ -22,7 +23,7 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage setAuth={setAuth} />}/>
           <Route path='/futurePronet' element={<NetPage setAuth={setAuth}/>}/>
-          <Route path='/aboutus' element={<AboutUs/>}/>
+          <Route path='/profile' element={<MyProfile setAuth={setAuth}/>}/>
           <Route path='/cvpreparation' element={<CVPrep/>}/>
           <Route path='/interviewpreparation' element={<InterviewPrep/>}/>
           <Route path='/genralRecomendation' element={<GeneralCareer/>}/>

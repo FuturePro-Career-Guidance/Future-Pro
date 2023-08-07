@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './generalcareer.css';
+import NavBar from '../Components/navBar';
 
 const GeneralCareer = () => {
     const [educationalQualifications, setEducationalQualifications] = useState('');
@@ -90,6 +91,7 @@ const GeneralCareer = () => {
 
     return (
         <React.Fragment>
+            <NavBar/>
             <div className='maincontainerg d-flex justify-content-center'>
                 <div className='formbox w-50 p-4 m-5'>
                     <form onSubmit={handleSubmit}>

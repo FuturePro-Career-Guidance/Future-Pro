@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import './landingpage.css'
 import Timeline from '../Components/timeline';
 import Testimonial from '../Components/testamonial';
+import RotateComponent from '../Components/rotation';
 
 
 const LandingPage = ({setAuth}) => {
@@ -27,15 +28,17 @@ const LandingPage = ({setAuth}) => {
     return ( 
         <React.Fragment>
             <div className='outlinebox'> 
-                <div className='mainbox m-3 p-1' >
+                <div className='mainbox m-3 p-1 ' >
                 <NavBar/>
 
                 <div className='blanksection p-5'>
 
                 </div>
 
-                <div className='mainsection d-flex w-100 m-3 flex-column '>
-                    <div className='textsection w-75 m-3'>
+                <div className='d-flex justify-content-between'>
+
+                <div className='mainsection d-flex w-100 m-3 flex-column w-75'>
+                    <div className='textsection w-50 m-3'>
                         <h1>Are You ready to start Your career</h1>
 
                     </div>
@@ -49,6 +52,14 @@ const LandingPage = ({setAuth}) => {
 
                 </div>
 
+                <div className='imgsection w-50 p-1'>
+                    <RotateComponent/>
+
+                </div>
+
+                </div>
+
+             
                 
                     
                 </div>
