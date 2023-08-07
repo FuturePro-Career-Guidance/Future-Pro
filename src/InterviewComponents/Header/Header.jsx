@@ -43,7 +43,6 @@ const Header = () => {
             </h2>
           </div>
 
-          <NavBar/>
 
           {/* <div className="nav d-flex align-items-center gap-5">
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>

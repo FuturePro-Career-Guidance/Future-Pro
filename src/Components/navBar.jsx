@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from "../Assests/logo.png"
 import './navbar.css'
 
 const NavBar = () => {
@@ -7,7 +7,7 @@ const NavBar = () => {
         <React.Fragment>
             <nav class="navbar navbar-expand-lg navbar-light mb-5 ">
   <div class="container-fluid m-1 p-1 ">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <img src={logo} alt='logo' className='logo'/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

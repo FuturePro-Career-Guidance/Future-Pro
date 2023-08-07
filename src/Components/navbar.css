@@ -7,3 +7,9 @@
     flex-wrap: wrap;
 }
 }
+
+.logo{
+    border-radius:500px;
+    height: 50px;
+    width: 100px;
+}

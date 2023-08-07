@@ -10,10 +10,13 @@ import FreeCourse from '../InterviewComponents/Free-course-section/FreeCourse'
 import Newsletter from '../InterviewComponents/Newsletter/Newsletter'
 import Footer from '../InterviewComponents/Footer/Footer'
 
+import NavBar from '../Components/navBar';
+
 
 const InterviewPrep = () => {
     return ( 
         <React.Fragment>
+            <NavBar/>
             <Header/>
             <HeroSection/>
             <AboutUs />
