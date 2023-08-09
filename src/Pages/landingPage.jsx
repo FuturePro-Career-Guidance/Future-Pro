@@ -57,6 +57,29 @@ const LandingPage = ({setAuth}) => {
 
                 </div>
 
+                <div className='experts'>
+            <div className='d-flex p-3 m-1 text-center'>
+                <h3>Meet our Industry experts, They guide you to get the job at first instance</h3>
+            </div>
+            <div className='d-flex justify-content-between ms-5 me-5'>
+                <div className='expert p-1'>
+                    <img src={require('../Assests/expert2.jpg').default} alt='expert2' />
+                    <p>Amal Expert</p>
+                    <p>IT Specialist</p>
+                </div>
+                <div className='expert p-1'>
+                    <img src={require('../Assests/expert1.jpg').default} alt='expert1' />
+                    <p>Dasith Expert</p>
+                    <p>HR Consultant</p>
+                </div>
+                <div className='expert p-1'>
+                    <img src={require('../Assests/expert3.jpg').default} alt='expert3' />
+                    <p>Ashen Expert</p>
+                    <p>Finance Advisor</p>
+                </div>
+            </div>
+        </div>
+
                 <div className='testamonials'>
 
                     <Testimonial/>
