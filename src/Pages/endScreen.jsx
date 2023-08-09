@@ -1,6 +1,6 @@
 import React, {useContext, useState} from "react";
 import {QuizContext} from "../Helpers/context";
-import "../App.css";
+import './skilltest.css';
 import {Questions} from "../Helpers/QuestionBank";
 
 function EndScreen() {

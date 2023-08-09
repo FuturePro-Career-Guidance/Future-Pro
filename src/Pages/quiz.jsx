@@ -1,7 +1,7 @@
 import { Questions} from "../Helpers/QuestionBank";
 import {QuizContext} from "../Helpers/context";
 import React, {useState, useContext} from "react";
-import {type} from "@testing-library/user-event/dist/type";
+import './skilltest.css';
 
 
 function Quiz(){
@@ -46,3 +46,6 @@ function Quiz(){
     );
 }
 export default Quiz;
+
+
+
