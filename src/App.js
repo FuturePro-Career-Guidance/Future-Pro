@@ -12,6 +12,7 @@ import AboutUs from './Pages/aboutUs';
 import CVPrep from './Pages/cvPrep';
 import InterviewPrep from './Pages/Interviewprep';
 import GeneralCareer from './Pages/generalCareer';
+import QuizPage from './Pages/QuizPage';
 
 function App() {
   const [auth,setAuth]=useState(false);
@@ -26,6 +27,7 @@ function App() {
           <Route path='/cvpreparation' element={<CVPrep/>}/>
           <Route path='/interviewpreparation' element={<InterviewPrep/>}/>
           <Route path='/genralRecomendation' element={<GeneralCareer/>}/>
+          <Route path='/skilltest' element={<QuizPage/>}/>
         </Routes>
       </Router>
 
