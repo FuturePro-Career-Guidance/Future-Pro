@@ -1,9 +1,10 @@
-import React, {useState, useContext} from "react";
+import React, {useState} from "react";
 
-import {QuizContext} from "../Helpers/Contexts";
+import {QuizContext} from "../Helpers/context";
 import MainMenu from "./mainMenu";
-import Quiz from "./Quiz";
-import EndScreen from "./EndScreen";
+import Quiz from './quiz';
+import EndScreen from './endScreen';
+
 
 
 

@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import {QuizContext} from "../Helpers/Contexts";
+import {QuizContext} from "../Helpers/context";
 import "../App.css";
 
 export default function MainMenu(){

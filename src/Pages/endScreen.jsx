@@ -1,5 +1,5 @@
 import React, {useContext, useState} from "react";
-import {QuizContext} from "../Helpers/Contexts";
+import {QuizContext} from "../Helpers/context";
 import "../App.css";
 import {Questions} from "../Helpers/QuestionBank";
 

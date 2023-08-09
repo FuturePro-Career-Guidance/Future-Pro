@@ -1,8 +1,15 @@
 import React from 'react';
 import logo from "../Assests/logo.png"
-import './navbar.css'
+import './navbar.css';
+import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
+  let navigate=useNavigate();
+
+  const SkillTesting=()=>{
+    navigate('/skilltest');
+
+};
     return ( 
         <React.Fragment>
             <nav class="navbar navbar-expand-lg navbar-light mb-5 ">
@@ -34,7 +41,7 @@ const NavBar = () => {
         </li>
 
         <li class="nav-item me-2">
-      <button className='btn btn-primary'>Skill test</button>
+      <button className='btn btn-primary' onClick={SkillTesting}>Skill test</button>
         </li>
        
       </ul>
