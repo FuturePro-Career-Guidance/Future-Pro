@@ -11,8 +11,10 @@ import LandingPage from './Pages/landingPage';
 import AboutUs from './Pages/aboutUs';
 import CVPrep from './Pages/cvPrep';
 import InterviewPrep from './Pages/Interviewprep';
+import QuizPage from "./Pages/QuizPage";
 import GeneralCareer from './Pages/generalCareer';
 import MyProfile from './Pages/myProfile';
+
 
 function App() {
   const [auth,setAuth]=useState(false);
@@ -27,6 +29,7 @@ function App() {
           <Route path='/cvpreparation' element={<CVPrep/>}/>
           <Route path='/interviewpreparation' element={<InterviewPrep/>}/>
           <Route path='/genralRecomendation' element={<GeneralCareer/>}/>
+          <Route path='/skilltest' element={<QuizPage/>}/>
         </Routes>
       </Router>
 
