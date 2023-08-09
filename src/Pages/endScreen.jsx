@@ -13,12 +13,12 @@ function EndScreen() {
     return (
         <div className="EndScreen">
             {""}
-            <h1>Quiz Finished</h1>
-            <h3>
-                {""}
-                <h5>{Questions[currQuestion].prompt} = {setOptionChosen()}</h5>;
+            <h1>Most Suitable Job for you is QA</h1>
+            {/*<h3>*/}
+            {/*    {""}*/}
+            {/*    <h5>{Questions[currQuestion].prompt} = {setOptionChosen()}</h5>;*/}
 
-            </h3>
+            {/*</h3>*/}
             <button onClick={restartQuiz}>Restart Quiz</button>
         </div>
     );
