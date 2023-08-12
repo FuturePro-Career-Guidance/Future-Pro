@@ -43,7 +43,7 @@ const NavBar = () => {
         </li>
 
         <li class="nav-item me-2">
-      <button className='btn btn-primary' onClick={SkillTesting}>Skill test</button>
+      <button className='btn ' onClick={SkillTesting}>Skill test</button>
         </li>
        
       </ul>

@@ -27,7 +27,7 @@ const LandingPage = ({setAuth}) => {
     return ( 
         <React.Fragment>
             <div className='outlinebox'> 
-                <div className='mainbox m-3 p-1' >
+                <div className='mainbox p-1 m-3' >
                 <NavBar/>
 
                 <div className='blanksection p-5'>
@@ -35,15 +35,17 @@ const LandingPage = ({setAuth}) => {
                 </div>
 
                 <div className='mainsection d-flex w-100 m-3 flex-column '>
-                    <div className='textsection w-75 m-3'>
-                        <h1>Are You ready to start Your career</h1>
+                    <div className='textsection w-50 m-3 p-3'>
+                        <h1>Navigate Your Future with AI-Driven Career Recommendations</h1>
+                        <p>Assess your skills and interests, receive personalized career recommendations, and prepare for interviews with our comprehensive resources.</p>
+                        
 
                     </div>
-                    <div>
-                        <button className='btn btn-success ms-3' onClick={signInWithGoogle}>Sign in with Google</button>
-                        <button className='btn btn-warning ms-3' onClick={recomend}>General Career Recomendation</button>
+                    <div className='ms-1'>
+                        <button className='btn btn-themedark ms-3' onClick={signInWithGoogle}>Sign in with Google</button>
+                        <button className='btn btn-themelight ms-3' onClick={recomend}>Get Career Recomendations</button>
                     </div>
-                    <div className='imgsection w-25 m-3'>
+                    <div className='imgsection w-50 m-3'>
 
                     </div>
 

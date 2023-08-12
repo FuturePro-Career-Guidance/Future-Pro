@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* .btn-themedark{
+  border-radius: 15px;
+  background: #32DBD1;
+}
+
+.btn-themelight{
+  border-radius: 15px;
+  background: #ffffff;
+  
+}
+
+.btn-themelight :hover{
+  background: #32DBD1;
+} */
