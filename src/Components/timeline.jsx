@@ -16,7 +16,10 @@ const Timeline = () => {
     return ( 
         <React.Fragment>
             <div>
-      <h1 className="title">Timeline</h1>
+              <div className='p-4 m-2 mt-5'>
+              <h1 className="title  text-center">Shape your Destiny with FuturePro, Follow this path for efficient results...</h1>
+              </div>
+     
       <VerticalTimeline>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === "work";
