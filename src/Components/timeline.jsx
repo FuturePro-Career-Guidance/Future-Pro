@@ -10,8 +10,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const Timeline = () => {
-    let workIconStyles = { background: "#06D6A0" };
-    let schoolIconStyles = { background: "#f9c74f" };
+    let workIconStyles = { background: "#06d6a0" };
+    let schoolIconStyles = { background: "#06d6a0" };
 
     return ( 
         <React.Fragment>

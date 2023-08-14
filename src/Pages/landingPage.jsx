@@ -54,7 +54,7 @@ const LandingPage = ({setAuth}) => {
                 
                     
                 </div>
-                <div className='timeline'>
+                <div className='timeline m-3'>
                 <Timeline/>
 
                 </div>

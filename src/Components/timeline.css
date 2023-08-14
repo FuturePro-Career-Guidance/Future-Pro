@@ -28,11 +28,11 @@
   }
   
   .schoolButton {
-    background-color: #f9c74f;
+    background: #17bf9e;
   }
   
   .schoolButton:hover {
-    background-color: #f3bc3c;
+    background-color: #17bf9e;
   }
   
   @media only screen and (max-width: 1700px) {
