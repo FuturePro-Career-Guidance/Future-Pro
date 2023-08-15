@@ -11,7 +11,7 @@ const MyProfile = () => {
 };
     return ( 
         <React.Fragment>
-            <div className='mainsection'>
+            <div className='mainsection1'>
                 <div className='navsection d-flex w-100 justify-content-between p-2 bg-light m-1 mb-5'>
                     <div>
                         <h3>Hi {}</h3>
@@ -19,19 +19,19 @@ const MyProfile = () => {
                     </div>
 
                     <div>
-                        <button className='btn btn-primary m-1' onClick={home}>Home</button>
-                        <button className='btn btn-warning m-1'>Log Out</button>
+                        <button className='btn  m-1' onClick={home}>Home</button>
+                        <button className='btn  m-1'>Log Out</button>
                     </div>
 
 
                 </div>
 
-                <div className='w-100 bg-light m-1 p-4 mb-4 text-center'>
+                <div className=' w-100 m-1 p-4 mb-4 text-center'>
                     <h2>View your reveiwed resumes and mock interview feedback </h2>
 
                 </div>
 
-                <div className='profilesection d-flex w-100 bg-light m-1 p-1 justify-content-between'>
+                <div className='profilesection d-flex w-100   p-1 justify-content-between'>
                     <div className='cvsubmitted d-flex w-50 bg-success p-2 m-2'>
                         <div className='cvreveiew bg-light p-4 m-2 w-100 rounded'>
                             <p>Name: Milanka Tharangana</p>
