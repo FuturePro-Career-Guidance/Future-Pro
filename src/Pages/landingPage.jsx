@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import './landingpage.css'
 import Timeline from '../Components/timeline';
 import Testimonial from '../Components/testamonial';
+import Type from '../Components/type';
 
 
 const LandingPage = ({setAuth}) => {
@@ -54,12 +55,34 @@ const LandingPage = ({setAuth}) => {
                 
                     
                 </div>
+
+                <div className='m-3 mt-5'>
+                    <div className='encouraging text-center'>
+                    <Type/>
+                        <h5>If you are looking for a solution, we are here to help you! </h5>
+                       
+                    </div>
+
+                    <div className='m-1 d-flex justify-content-between'>
+                        <div className='imagerich'>
+
+                        </div>
+                        <div className='textrich'>
+                            <p></p>
+
+                        </div>
+
+                    </div>
+                    
+               
+
+                </div>
                 <div className='timeline m-3'>
                 <Timeline/>
 
                 </div>
 
-                <div className='experts'>
+                {/* <div className='experts'>
             <div className='d-flex p-3 m-1 text-center'>
                 <h3>Meet our Industry experts, They guide you to get the job at first instance</h3>
             </div>
@@ -80,7 +103,7 @@ const LandingPage = ({setAuth}) => {
                     <p>Finance Advisor</p>
                 </div>
             </div>
-        </div>
+        </div> */}
 
                 <div className='testamonials'>
 
