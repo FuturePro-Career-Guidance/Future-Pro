@@ -34,3 +34,55 @@
 .encouraging{
     color: #17bf9e;
 }
+
+
+
+.img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    color:#fff;
+    text-align: center;
+    margin: 1rem;
+    text-shadow: 0 0 15px #000;
+    width:75%
+}
+
+.img12{
+    background: url('../Assests/employee.jpg');
+}
+
+.img11,.img12{
+    min-height: 80%;
+    height: 60vh;
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:dark;
+    opacity: 0.85;
+}
+@media only screen and (max-width: 700px) {
+   .imt{
+    flex-direction: column;
+    justify-content: space-around;
+   }
+
+   .img11,.img12{
+    height: 50vh;
+ }
+  }
+
+  .imagetexter{
+    color: #fff;
+    font-size: 17px;
+  }
