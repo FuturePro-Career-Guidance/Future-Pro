@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
-import NavBar from "../../Components/navBar";
+
 
 // const navLinks = [
 //   {
