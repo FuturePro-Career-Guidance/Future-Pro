@@ -22,18 +22,18 @@ const Post = () => {
     return ( 
         <React.Fragment>
         {postLists.map((post) => (
-          <div key={post.id} className='postOutline d-flex flex-column w-50 bg-primary p-3 m-2'>
-             <div className='posthead bg-warning m-1 p-1 d-flex align-items-center'>
+          <div key={post.id} className='postOutline d-flex flex-column w-50  p-3 m-2 rounded'>
+             <div className='posthead bg-light m-1 p-1 d-flex align-items-center rounded'>
             {userProfilePicture && (
               <img src={userProfilePicture} alt='User Display' className='profile-picture' />
             )}
             <h6 className='user-name'>{userDisplayName}</h6>
           </div>
-            <div className='postbody primary  m-1 p-1'  style={{ backgroundColor: post.postColor }}>
+            <div className='postbody primary  m-1 p-1 bg-light rounded'>
               <p>{post.postText}</p>
             </div>
-            <div className='postfooter bg-danger p-2 m-1 d-flex justify-content-end'>
-              <button className='btn btn-primary '>Add Comment</button>
+            <div className='postfooter bg-light rounded p-2 m-1 d-flex justify-content-end'>
+              <button className='btn  '>Add Comment</button>
             </div>
           </div>
         ))}

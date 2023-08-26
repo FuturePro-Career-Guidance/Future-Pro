@@ -3,7 +3,14 @@
     color: white;
     font-size: 1.1rem;
     text-align: justify;
-    font-weight: bold; /* Make the text bold */
+    font-weight: bold; 
+    font-family: 'Helvetica', sans-serif;
+}
+
+.postbody .p{
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: bold; 
     font-family: 'Helvetica', sans-serif;
 }
 
@@ -13,4 +20,8 @@
     border-radius: 50%; /* Make the picture round */
     margin-right: 10px; /* Add some space between the picture and the user name */
   }
+
+.postOutline{
+    background-color: #17bf9e;
+}
 

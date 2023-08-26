@@ -6,7 +6,7 @@ const Modal = () => {
 
     const [title, setTitle] = useState('');
     const [question, setQuestion] = useState('');
-    const [color, setColor] = useState('#563d7c');
+    // const [color, setColor] = useState('#563d7c');
     const [titleError, setTitleError] = useState('');
     const [questionError, setQuestionError] = useState('');
 
@@ -22,9 +22,9 @@ const Modal = () => {
       setQuestionError('');
     };
   
-    const handleColorChange = (e) => {
-      setColor(e.target.value);
-    };
+    // const handleColorChange = (e) => {
+    //   setColor(e.target.value);
+    // };
   
     const handleSubmit = async (e) => {
       e.preventDefault();
@@ -33,8 +33,7 @@ const Modal = () => {
   if (!auth.currentUser) {
     // If the user is not signed in, display an alert or redirect to the sign-in page
     alert('You must sign in to create a post.');
-    // Alternatively, you can redirect the user to the sign-in page
-    // Example: navigate('/signin') if you are using React Router
+   
     return;
   }
   
@@ -53,18 +52,18 @@ const Modal = () => {
         // Perform additional form submission logic here
         // For example, API calls, saving to the database, etc.
 
-        await addDoc(postsCollectionRef, {title:title, postText:question, postColor:color,author:{name:auth.currentUser.displayName,id:auth.currentUser.uid},});
+        await addDoc(postsCollectionRef, {title:title, postText:question,author:{name:auth.currentUser.displayName,id:auth.currentUser.uid},});
   
         console.log('Title:', title);
         console.log('Question:', question);
-        console.log('Color:', color);
+        // console.log('Color:', color);
 
         alert('Form submitted successfully!');
 
         // Clear the form fields
         setTitle('');
         setQuestion('');
-        setColor('#563d7c');
+        // setColor('#563d7c');
       }
     };
 
@@ -106,7 +105,7 @@ const Modal = () => {
         {questionError && <div className="text-danger">{questionError}</div>}
       </div>
 
-      <label htmlFor="exampleColorInput" className="form-label mt-2">Pick a color for the post</label>
+      {/* <label htmlFor="exampleColorInput" className="form-label mt-2">Pick a color for the post</label>
       <input
         type="color"
         className="form-control form-control-color"
@@ -114,7 +113,7 @@ const Modal = () => {
         value={color}
         title="Choose your color"
         onChange={handleColorChange}
-      />
+      /> */}
       <div className='d-flex justify-content-end'>
       <button type="submit" className="btn btn-primary ">Post</button>
       <button type="button" class="btn btn-secondary ms-2" data-bs-dismiss="modal">Close</button>
