@@ -25,6 +25,13 @@ const LandingPage = ({setAuth}) => {
             navigate('/genralRecomendation');
         
     };
+
+    const cvprep=()=>{
+      navigate('/cvpreparation');
+    }
+    const interviewprep=()=>{
+      navigate('/interviewpreparation');
+    }
     return ( 
         <React.Fragment>
             <div className='outlinebox'> 
@@ -76,9 +83,7 @@ const LandingPage = ({setAuth}) => {
               <p className='imagetexter mt-3 p-2'>
                FUTUREPRO isn't just about today; it's about your future. We envision a world where your career aspirations meet achievements seamlessly. Join us, and together, let's redefine the way you navigate the job market. Your success story begins here, with FUTUREPRO – your AI mentor, your career ally, and your passport to excellence.
               </p>
-              <button type="button" class="btn btn-outline-light mb-3 mt-3">
-                Start Your Journey
-              </button>
+             
             </div>
           </div>
                 <div className='timeline m-3 mb-0 mt-0'>
@@ -101,10 +106,10 @@ const LandingPage = ({setAuth}) => {
               Turn interview jitters into a confident performance with our mock interview service
               </p>
               <div>
-              <button type="button" class="btn btn-outline-light mb-3 mt-3 me-2">
+              <button type="button" class="btn btn-outline-light mb-3 mt-3 me-2" onClick={cvprep}>
                 CV reviews
               </button>
-              <button type="button" class="btn btn-outline-light mb-3 mt-3 ms-2">
+              <button type="button" class="btn btn-outline-light mb-3 mt-3 ms-2" onClick={interviewprep}>
                Mock interviews
               </button>
               </div>

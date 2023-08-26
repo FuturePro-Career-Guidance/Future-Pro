@@ -1,6 +1,7 @@
 import React from 'react';
 import timelineElements from "./timelineElements";
 import './timeline.css';
+import { Link } from 'react-router-dom';
 
 import {
   VerticalTimeline,
@@ -44,14 +45,14 @@ const Timeline = () => {
               </h5>
               <p id="description">{element.description}</p>
               {showButton && (
-                <a
-                  className={`button ${
-                    isWorkIcon ? "workButton" : "schoolButton"
-                  }`}
-                  href="/"
-                >
-                  {element.buttonText}
-                </a>
+                <Link
+                className={`button ${
+                  isWorkIcon ? 'workButton' : 'schoolButton'
+                }`}
+                to={element.buttonPath} 
+              >
+                {element.buttonText}
+              </Link>
               )}
             </VerticalTimelineElement>
           );
