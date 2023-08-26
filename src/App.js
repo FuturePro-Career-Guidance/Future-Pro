@@ -27,7 +27,7 @@ function App() {
           <Route path='/interviewpreparation' element={<InterviewPrep/>}/>
           <Route path='/genralRecomendation' element={<GeneralCareer/>}/>
           <Route path='/skilltest' element={<QuizPage/>}/>
-          <Route path='/myProfile' element={<MyProfile/>}/>
+          <Route path='/myProfile' element={<MyProfile  setAuth={setAuth}/>}/>
         </Routes>
       </Router>
 

@@ -1,13 +1,25 @@
 import React from 'react';
 import './profile.css';
 import { useNavigate } from 'react-router-dom';
+import { signOut,getAuth } from 'firebase/auth';
 
 const MyProfile = () => {
     let navigate=useNavigate();
+    const auth = getAuth(); 
 
     const home=()=>{
         navigate('/');
     
+};
+const handleLogout = () => {
+    // Implement Firebase sign out
+    signOut(auth)
+        .then(() => {
+            navigate('/'); // Redirect to home page after logout
+        })
+        .catch((error) => {
+            console.error('Logout Error:', error);
+        });
 };
     return ( 
         <React.Fragment>
@@ -20,7 +32,7 @@ const MyProfile = () => {
 
                     <div>
                         <button className='btn  m-1' onClick={home}>Home</button>
-                        <button className='btn  m-1'>Log Out</button>
+                        <button className='btn  m-1' onClick={handleLogout}>Log Out</button>
                     </div>
 
 
