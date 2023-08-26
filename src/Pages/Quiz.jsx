@@ -1,6 +1,5 @@
 import { Questions} from "../Helpers/QuestionBank";
 import {QuizContext} from "../Helpers/Contexts";
-import {useContext, useState} from "react";
 import React, {useState, useContext} from "react";
 import {type} from "@testing-library/user-event/dist/type";
 
