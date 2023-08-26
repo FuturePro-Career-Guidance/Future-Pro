@@ -91,17 +91,24 @@ const LandingPage = ({setAuth}) => {
                     <Testimonial/>
                 </div>
 
-                <div className="img12 bg-dark m-3 mb-0">
+                <div className="img11 bg-dark m-3 mb-0">
             <div class="img-overlay">
               <h1>
-              Experience personalized guidance like never before.
+              Empower Yourself with Expert CV Review and Mock Interviews
               </h1>
               <p className='imagetexter mt-3 p-2'>
-               FUTUREPRO isn't just about today; it's about your future. We envision a world where your career aspirations meet achievements seamlessly. Join us, and together, let's redefine the way you navigate the job market. Your success story begins here, with FUTUREPRO – your AI mentor, your career ally, and your passport to excellence.
+              Let our experts fine-tune your CV to perfection, showcasing your skills like never before.
+              Turn interview jitters into a confident performance with our mock interview service
               </p>
-              <button type="button" class="btn btn-outline-light mb-3 mt-3">
-                Start Your Journey
+              <div>
+              <button type="button" class="btn btn-outline-light mb-3 mt-3 me-2">
+                CV reviews
               </button>
+              <button type="button" class="btn btn-outline-light mb-3 mt-3 ms-2">
+               Mock interviews
+              </button>
+              </div>
+              
             </div>
           </div>
 
@@ -120,7 +127,7 @@ const LandingPage = ({setAuth}) => {
                   aria-expanded="true"
                   aria-controls="panelsStayOpen-collapseOne"
                 >
-                  What is Food Bank?
+                  How does FUTUREPRO work?
                 </button>
               </h2>
               <div
@@ -129,14 +136,7 @@ const LandingPage = ({setAuth}) => {
                 aria-labelledby="panelsStayOpen-headingOne"
               >
                 <div class="accordion-body">
-                  The food bank is a wonderful charitable app that serves as a
-                  lifeline to countless individuals and families who struggle
-                  with food insecurity. It is a donation app that allows people
-                  to donate money and food items to those in need. The mission
-                  of a food bank is to collect and distribute food to those who
-                  are hungry and in need of assistance. By doing so, they
-                  provide support to families and individuals who may be facing
-                  difficult circumstances.
+                FUTUREPRO utilizes advanced AI algorithms to analyze your skills, interests, and aspirations. Based on this information, it offers tailored career recommendations, interview tips, and connects you with a vibrant community of professionals.
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@ const LandingPage = ({setAuth}) => {
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseTwo"
                 >
-                  How can we contribute?
+                 How can FUTUREPRO help me in my career?
                 </button>
               </h2>
               <div
@@ -159,15 +159,7 @@ const LandingPage = ({setAuth}) => {
                 aria-labelledby="panelsStayOpen-headingTwo"
               >
                 <div class="accordion-body">
-                  There are two ways you can contribute to our cause of helping
-                  those in need: donating food or donating money. If you choose
-                  to donate food, you can bring it directly to our warehouse, or
-                  our representatives can arrange to collect it from you.
-                  Additionally, if you know of any individuals or families who
-                  could benefit from our assistance, you can propose them as
-                  potential recipients of our aid. We appreciate any and all
-                  support towards our mission to make a positive impact on the
-                  lives of those facing hardship.
+                FUTUREPRO empowers you with personalized career recommendations, helping you discover the best-fit job roles and industries. It offers resources for interview preparation, enabling you to shine in job interviews. Additionally, the networking platform allows you to connect with experienced professionals for mentorship and advice.
                 </div>
               </div>
             </div>
@@ -181,7 +173,7 @@ const LandingPage = ({setAuth}) => {
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseThree"
                 >
-                  How can we propose victims?
+                 Is my data safe with FUTUREPRO?
                 </button>
               </h2>
               <div
@@ -190,12 +182,7 @@ const LandingPage = ({setAuth}) => {
                 aria-labelledby="panelsStayOpen-headingThree"
               >
                 <div class="accordion-body">
-                  You can enter information on those who need help (victims of
-                  the food crisis). You need to have a user account to enter the
-                  victims' information.Once the data is submitted, the system
-                  checks whether entered details are existing information or
-                  not. If not, those details save to the system as the new
-                  victim who needs a donation.
+                Yes, absolutely. We take data privacy and security seriously. Your data is encrypted and stored securely. We only use your information to enhance your user experience and provide personalized recommendations
                 </div>
               </div>
             </div>
@@ -209,7 +196,7 @@ const LandingPage = ({setAuth}) => {
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseThree"
                 >
-                  How the Food Donations are happenning?
+                 Are there any charges to use FUTUREPRO?
                 </button>
               </h2>
               <div
@@ -218,14 +205,7 @@ const LandingPage = ({setAuth}) => {
                 aria-labelledby="panelsStayOpen-headingThree"
               >
                 <div class="accordion-body">
-                  You can donate food whether you are registered users or
-                  not. you have the option of donating food in your name by
-                  including your information or anonymously. Once a you are
-                  granted access to give, you can browse the food products that
-                  can be donated as well as the locations of the warehouses. The
-                  donor must next input the donation dates and choose a specific
-                  warehouse. Additionally, a donor has the choice of donating on
-                  their own or having an organization pick it up. 
+                FUTUREPRO offers a free tier with access to essential features. We also offer premium plans with advanced functionalities for those looking for an enhanced career mentorship experience.
                 </div>
               </div>
             </div>

@@ -51,9 +51,11 @@
 }
 
 .img12{
-    background: url('../Assests/employee.jpg');
+    background: url('../Assests/employee2.png');
 }
-
+.img11{
+    background: url('../Assests/cheerful1.png');
+}
 .img11,.img12{
     min-height: 80%;
     height: 60vh;
@@ -84,5 +86,5 @@
 
   .imagetexter{
     color: #fff;
-    font-size: 17px;
+    font-size: 16px;
   }
