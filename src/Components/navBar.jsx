@@ -43,6 +43,10 @@ const NavBar = () => {
         </li>
 
         <li class="nav-item me-2">
+          <a class="nav-link active" aria-current="page" href="/portfolio">Portfolio</a>
+        </li>
+
+        <li class="nav-item me-2">
       <button className='btn ' onClick={SkillTesting}>Skill test</button>
         </li>
        
