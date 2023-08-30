@@ -11,7 +11,6 @@ import InterviewPrep from './Pages/Interviewprep';
 import GeneralCareer from './Pages/generalCareer';
 import QuizPage from './Pages/QuizPage';
 import  MyProfile from './Pages/profile';
-import Portfolio from './Components/Portfolio/portfolio'
 import Footer from './InterviewComponents/Footer/Footer';
 
 function App() {
@@ -29,7 +28,7 @@ function App() {
           <Route path='/genralRecomendation' element={<GeneralCareer/>}/>
           <Route path='/skilltest' element={<QuizPage/>}/>
           <Route path='/myProfile' element={<MyProfile  setAuth={setAuth}/>}/>
-          <Route path='/portfolio' element={<Portfolio/>}/>
+          
         </Routes>
       </Router>
 

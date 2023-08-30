@@ -7,9 +7,9 @@
     border: none;
     outline: none;
 }
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 :root{
     --color-primary:#29d882;
     --color-primary-variant:#00bd95;
@@ -26,48 +26,17 @@ body{
     color: var(--color-black);
     font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1{
-    font-size: 50px;
-    font-weight: 700; 
-    line-height: 130%;
-    
-}
-h3{
-    font-size: 34px;
-    font-weight: 700;
-    color: var(--color-primary);
-    line-height: 130%;
-}
-p{
-    color: var(--color-dark);
-    line-height: 150%;
-    font-size: 19px;
-}
+
 img{
     width: 100%;
-    display: block;
+    display: flex;
 }
-.btn{
-    display: inline-block;
-    width: fit-content;
-    padding: 14px 32px;
-    font-weight: 500;
-    font-size: 19px;
-    border-radius: 30px;
-    background: var(--color-primary);
-    color: var(--color-white);
-    box-shadow: 0 02px 06px rgba(0,0,0,0.4);
-    transition: var(--transition);
-}
-.btn:hover{
-    background: var(--color-primary-variant);
-    box-shadow: none;
-}
-.container{
+
+/* .container{
     width: 90%;
     margin: 0 auto;
     max-width: 1420px;
-}
+} */
 /* Start nav Bar */
 nav{
     width: 100%;
@@ -133,12 +102,12 @@ header{
     overflow: hidden;
 }
 .header-container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto 45rem;
-    gap:4rem;
+    gap:4rem; */
     align-items: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    /* padding-top: 3%;
+    padding-bottom: 3%; */
 }
 .header-container h3{
     margin: .7rem 0;

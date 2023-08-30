@@ -8,6 +8,8 @@ import './landingpage.css'
 import Timeline from '../Components/timeline';
 import Testimonial from '../Components/testamonial';
 import Type from '../Components/type';
+import ImageSection from '../Components/Portfolio/imagesection';
+
 
 
 const LandingPage = ({setAuth}) => {
@@ -41,23 +43,48 @@ const LandingPage = ({setAuth}) => {
                 <div className='blanksection p-5'>
 
                 </div>
-
-                <div className='mainsection d-flex w-100 m-3 flex-column '>
-                    <div className='textsection w-50 m-3 p-3'>
+                {/* <div classname='mainsection d-flex w-100 '>
+                <div className='textsection d-flex w-50 m-3 flex-column '>
+                   
                         <h1>Navigate Your Future with AI-Driven Career Recommendations</h1>
                         <p>Assess your skills and interests, receive personalized career recommendations, and prepare for interviews with our comprehensive resources.</p>
                         
 
-                    </div>
-                    <div className='ms-1'>
+                   
+                    <div className=''>
                         <button className='btn btn-themedark ms-3' onClick={signInWithGoogle}>Sign in with Google</button>
                         <button className='btn btn-themelight ms-3' onClick={recomend}>Get Career Recomendations</button>
                     </div>
-                    <div className='imgsection w-50 m-3'>
-
-                    </div>
+                  
 
                 </div>
+                
+                <div className='imgsection w-50 m-3'>
+                  <h1>aadad</h1>
+
+                </div>
+
+                </div> */}
+                <div className='mainsection d-flex w-100 justify-content-between'>
+                  <div className='textsection w-50 m-3 p-5'>
+                  <h1>Navigate Your Future with AI-Driven Career Recommendations</h1>
+                  <p>Assess your skills and interests, receive personalized career recommendations, and prepare for interviews with our comprehensive resources.</p>
+                  <button className='btn btn-themedark' onClick={signInWithGoogle}>Sign in with Google</button>
+                  <button className='btn btn-themelight ms-3' onClick={recomend}>Get Career Recomendations</button>
+                  </div>
+
+                  <div className='imagesection w-50 d-flex p-1 '>
+                  
+                    <ImageSection/>
+                     
+
+                  </div>
+
+
+                </div>
+
+
+
 
                 
                     
